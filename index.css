@@ -1,0 +1,76 @@
+.banner{
+    width: 100%;
+    height: 450px;
+}
+
+
+
+/*Main*/
+main section{
+    width: 940px;
+    height: 150px;
+    margin: 50px 0 250px 250px;
+    line-height: 1.3;
+}
+
+.sections-titles{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 15px 50px;   
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5em;
+    color: #114d4d;
+}
+
+.section-one-main img{
+    width: 120px;
+    float: left;
+    margin: 0 0 0 200px;    
+}
+
+.section-one-main strong{
+    font-style: italic;
+    font-size: 26px;
+}
+
+.section-one-main p{
+    line-height: 1.5;
+}
+
+
+.content-section-two{
+    align-content: center;
+}
+
+.section-two-main img{
+    width: 230px;
+}
+.list-section-two{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list-section-two li{
+    line-height: 1.5;
+}
+
+.list-section-two li::before{
+    content: "✰  ";
+    margin: 0 0 0 70px;
+}
+
+
+.map{
+    padding: 3em 0;
+
+}
+.map-content{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+
+
+

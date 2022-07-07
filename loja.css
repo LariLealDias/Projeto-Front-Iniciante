@@ -1,0 +1,53 @@
+
+/*main*/
+.product{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.product img{
+    width: 250px;
+    box-shadow: 3px 3px 5px 5px #b0b1b1;
+}
+
+.product img:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.product li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.product-title{
+    font-family: 'Bebas Neue', cursive;
+    margin: 20px 0 20px 0;
+    font-size: 1.3em;
+    color: #114d4d;
+}
+
+.buy{
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    border:none;
+    background: #1c7777;
+}
+
+.buy a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.buy:hover{
+    background: #114d4d;
+    transition: 1s;
+}

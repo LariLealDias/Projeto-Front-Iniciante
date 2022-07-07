@@ -1,0 +1,62 @@
+/*body*/
+body{
+    background: #f0f0f5;
+}
+
+
+
+/*header*/
+header{
+    background:#844e81;
+    padding: 20px 0;
+}
+
+.container-header{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.container-header img{
+    width: 150px;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 45px;
+}
+
+nav a{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 15px;
+}
+
+nav a:hover{
+    color: #6e9987;
+}
+
+
+
+/*footer*/
+footer{
+    background:#844e81;
+    padding: 20px 0;
+    text-align: center;
+    color: #80a394;
+}
+
+footer img{
+    width: 130px;
+}
+
